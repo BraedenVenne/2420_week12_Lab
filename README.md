@@ -86,7 +86,7 @@ put -r 164.92.111.93
 Example output:
 ![picture of file transfer](/images/transfer-files.PNG)
 
-### Moving the Files to the Appropriate Directories
+#### Moving the Files to the Appropriate Directories
 1. Create directories in */var/www*
 ![picture of making directory](/images/make-dir.PNG)
 
@@ -96,5 +96,5 @@ Example output:
 3. Move the *Server Block file*
 ![picture of moving the server block](/images/mv-server-block.PNG)
 
-### Create the Symbolic Link
+4. Create a Symbolic Link
 ![picture of creating the sym link](/images/symbolic-link.PNG)
