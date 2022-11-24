@@ -11,7 +11,7 @@ Give your droplet the following name:
 
 - **web-one**
 
-These will be the hostname for your server.
+This will be the hostname for your server.
 
 ### Installing NGINX
 1. Update local package index
