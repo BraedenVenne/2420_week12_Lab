@@ -13,7 +13,7 @@ Give your droplet the following name:
 
 This will be the hostname for your server.
 
-### Installing NGINX
+## Installing NGINX
 1. Update local package index
    
    ![picture of apt update command](/images/aptupdate.PNG)
@@ -23,7 +23,7 @@ This will be the hostname for your server.
     ![picture of install nginx command](/images/installnginx.PNG)
 
 
-### Making an HTML document
+## Making an HTML document
 1. In your WSL, make an index.html file
 
 Example html file:
@@ -46,7 +46,7 @@ Example html file:
 </html>
 ```
 
-### Making an nginx Server Block
+## Making an nginx Server Block
 1. In your WSL, create a file with the Digital Ocean droplet's ip address as the name
 
 *Note: Change the IP addresses in the example with your Digital Ocean droplet's IP address*
@@ -68,7 +68,7 @@ server {
 } 
 ```
 
-### Transfering the Files from WSL to  Your Server
+## Transfering the Files from WSL to  Your Server
 We will move the files from you *WSL* to *web-one* using sftp
 
 1. Connect to *web-one* from *WSL*
@@ -86,7 +86,8 @@ put -r 164.92.111.93
 Example output:
 ![picture of file transfer](/images/transfer-files.PNG)
 
-#### Moving the Files to the Appropriate Directories
+Moving the Files to the Appropriate Directories
+
 1. Create directories in */var/www*
 ![picture of making directory](/images/make-dir.PNG)
 
