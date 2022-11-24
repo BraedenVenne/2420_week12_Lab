@@ -15,8 +15,11 @@ These will be the hostname for your server.
 
 ### Installing NGINX
 1. Update local package index
-    ![picture of apt update command](/images/aptupdate.PNG)
+   
+   ![picture of apt update command](/images/aptupdate.PNG)
+   
 2. install *nginx* 
+    
     ![picture of install nginx command](/images/installnginx.PNG)
 
 
