@@ -67,3 +67,34 @@ server {
         }
 } 
 ```
+
+### Transfering the Files from WSL to  Your Server
+We will move the files from you *WSL* to *web-one* using sftp
+
+1. Connect to *web-one* from *WSL*
+```
+sftp -i ~/.ssh/web-one braeden@164.92.111.93
+```
+
+2. Transfer the files
+```
+put -r index.html
+```
+```
+put -r 164.92.111.93
+```
+Example output:
+![picture of file transfer](/images/transfer-files.PNG)
+
+### Moving the Files to the Appropriate Directories
+1. Create directories in */var/www*
+![picture of making directory](/images/make-dir.PNG)
+
+2. Move *index.html*
+![picture of moving index.html](/images/mv-index.PNG)
+
+3. Move the *Server Block file*
+![picture of moving the server block](/images/mv-server-block.PNG)
+
+### Create the Symbolic Link
+![picture of creating the sym link](/images/symbolic-link.PNG)
