@@ -106,7 +106,7 @@ Moving the Files to the Appropriate Directories
 
 ## Check Webpage
 1. On your browser, enter your Digital Ocean droplet's IP address as the webpage URL <br>
-![picture of webpage](/images/check-webpage.PNG)
+![picture of webpage](/images/webpage.PNG)
 
 ## Setting up UFW
 1. Set up the default policies <br>
