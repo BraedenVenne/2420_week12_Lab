@@ -99,7 +99,7 @@ Moving the Files to the Appropriate Directories
 ![picture of creating the sym link](/images/symbolic-link.PNG)
 
 5. Test Your nginx Configuration <br>
-![picture of nginx config test](/images/test-nginx-config.PNG)
+![picture of nginx config test](/images/nginx-config.PNG)
 
 6. Reload the nginx Service <br>
 ![picture of reloading nginx service](/images/reload-nginx.PNG)
